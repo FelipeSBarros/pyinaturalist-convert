@@ -1,6 +1,6 @@
 from typing import List
 
-from geojson import Feature, Point, FeatureCollection
+from geojson import Feature, FeatureCollection, Point
 from pyinaturalist.constants import ResponseResult
 
 from pyinaturalist_convert.converters import AnyObservations, ensure_list, flatten_observation
